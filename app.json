@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/pattern/pattern",
+    "pages/time/time",
+    "pages/opinion/opinion",
+    "pages/order/order",
+    "pages/issue/issue"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#eeeeee",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "man奢",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home_selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath":"images/user.png",
+        "selectedIconPath":"images/user_selected.png"
+      }
+    ],
+    "selectedColor": "#06bd04"
+  }
+}

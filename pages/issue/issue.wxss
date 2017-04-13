@@ -1,0 +1,21 @@
+view{
+    font-size: 31rpx;
+}
+.title{
+    color: red;
+    font-size: 40rpx;
+}
+.container{
+    margin: 40rpx;
+}
+.container view{
+    line-height: 45rpx;
+}
+.container view:nth-child(1){
+    text-align: center;
+    font-size: 40rpx;
+}
+.container view:nth-child(2){
+    color: #cfd0d1;
+    font-size: 25rpx;
+}

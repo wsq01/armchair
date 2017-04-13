@@ -1,0 +1,61 @@
+<view>
+  <view class="pattern_title">
+    <text></text>模式选择
+    <text></text>
+  </view>
+  <view class="container">
+    <view class="pattern_bg" bindtap="chosePtn1"  wx:if="{{pattern1}}">
+      <image src="../../images/pattern1.png" mode="widthFix"></image>
+      <image src="../../images/select1.png" mode="widthFix" class="selected" wx:if="{{selected==1}}"></image>
+      <text class="pattern_price">￥{{pattern1.amount}}元</text>
+      <view class="pattern_time">
+        <image src="../../images/time.png" mode="widthFix"></image>
+        <text>{{pattern1.duration}}分钟</text>
+      </view>
+      <view class="pattern_time">
+        <image src="../../images/ptn1.png" mode="widthFix"></image>
+        <text>{{pattern1.name}}</text>
+      </view>
+    </view>
+
+    <view class="pattern_bg" bindtap="chosePtn2"  wx:if="{{pattern2}}">
+      <image src="../../images/pattern2.png" mode="widthFix"></image>
+      <image src="../../images/select2.png" mode="widthFix" class="selected" wx:if="{{selected==2}}"></image>
+      <text class="pattern_price">￥{{pattern2.amount}}元</text>
+      <view class="pattern_time">
+        <image src="../../images/time2.png" mode="widthFix"></image>
+        <text>{{pattern2.duration}}分钟</text>
+      </view>
+      <view class="pattern_time">
+        <image src="../../images/ptn2.png" mode="widthFix"></image>
+        <text>{{pattern2.name}}</text>
+      </view>
+    </view>
+
+    <view class="pattern_bg" bindtap="chosePtn3" wx:if="{{pattern3}}">
+      <image src="../../images/pattern3.png" mode="widthFix"></image>
+      <image src="../../images/select3.png" mode="widthFix" class="selected" wx:if="{{selected==3}}"></image>
+      <text class="pattern_price">￥{{pattern3.amount}}元</text>
+      <view class="pattern_time">
+        <image src="../../images/time3.png" mode="widthFix"></image>
+        <text>{{pattern3.duration}}分钟</text>
+      </view>
+      <view class="pattern_time">
+        <image src="../../images/ptn3.png" mode="widthFix"></image>
+        <text>{{pattern3.name}}</text>
+      </view>
+    </view>
+
+
+
+    <button bindtap="toPay" class="pattern_btn">确定</button>
+    <view class="flag">
+      <image src="../../images/mam1.png" mode="widthFix"></image>
+      <image src="../../images/order1.png" mode="widthFix"></image>
+    </view>
+    <view class="agreement">
+      <image src="../../images/pattern.png" mode="widthFix"></image>
+      <text>服务协议</text>
+    </view>
+  </view>
+</view>

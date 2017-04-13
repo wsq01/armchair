@@ -1,0 +1,4 @@
+<view class="container">
+<image src="../../images/index.png" mode="scaleToFill"></image>
+<button bindtap="scanCode">扫码按摩</button>
+</view>

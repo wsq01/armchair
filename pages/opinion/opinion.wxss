@@ -1,0 +1,15 @@
+.container{
+    width: 90%;
+    margin: 20rpx auto;
+}
+textarea{
+    width: 100%;
+    margin: 20rpx 0;
+    background-color: #c9ced0;
+    font-size: 33rpx;
+    padding: 10rpx;
+}
+.container button{
+    background-color: #79b5d6;
+    color:#fff;
+}

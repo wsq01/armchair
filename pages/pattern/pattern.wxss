@@ -1,0 +1,93 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 20rpx 0 0 0;
+} 
+.pattern_title{
+    margin: 40rpx auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 31rpx;
+}
+.pattern_title text{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    margin: auto;
+}
+.pattern_bg {
+  border-radius: 7px;
+  background-color: rgb( 255, 255, 255 );
+  box-shadow: 1px 1.732px 5px 0px rgb( 6, 0, 1 );
+  width: 448rpx;
+  height: 210rpx;
+  margin-bottom: 64rpx;
+  position: relative;
+}
+.pattern_price{
+  position: absolute;
+  right: 37rpx;
+  top: 30rpx;
+  color: white;
+}
+.pattern_bg image{
+  display: inline-block;
+  width: 100%;
+}
+.pattern_bg .selected{
+  display: inline-block;
+  width: 84rpx;
+  height: 57rpx;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.pattern_time{
+  margin: 0 0 0 30rpx;
+}
+.pattern_time image{
+  width: 28rpx;
+  display: inline-block;
+  margin: 0 10rpx 0 0;
+}
+.pattern_time text{
+  font-size: 28rpx;
+}
+.pattern_btn{
+    background-color: #79b5d6;
+    color: white;
+    font-weight: bold;
+    font-size: 35rpx;
+    padding: 0 40rpx;
+    margin: 40rpx 0;
+    border-radius: 10px;
+}
+.flag{
+  margin: 20rpx 0 0 0;
+}
+.flag image:nth-child(1){
+  width: 43rpx;
+    display: inline-block;
+    margin: 0 10rpx 0 0;
+}
+.flag image:nth-child(2){
+  width: 84rpx;
+    display: inline-block;
+}
+.agreement image{
+  width: 23rpx;
+  display: inline-block;
+  margin: 0 10rpx 0 0;
+}
+.agreement text{
+  font-size: 26rpx;
+  color: #8b8b8b;
+}

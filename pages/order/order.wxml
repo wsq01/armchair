@@ -1,0 +1,16 @@
+<view>
+    <view class="orderItem" wx:for="{{myOrders}}">
+        <view><image src="../../images/mam1.png"></image></view>
+        <view class="orderItem_mid">
+            <view>
+                <view>{{item.addr}}</view>
+                <view>{{item.starttime}}</view>
+            </view>
+            <view>{{item.mode}}</view>
+        </view>
+        <view class="orderItem_end">
+            <view>{{item.status}}</view>
+            <view>￥{{item.amount}}元</view>
+        </view>
+    </view>
+</view>

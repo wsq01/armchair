@@ -1,0 +1,66 @@
+page{
+    background-color: #79b5d6;
+    height: 100%; 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.surplusTime{
+    width: 86.56%;
+    height: 306rpx;
+    background-color: white;
+    margin: 40rpx 0 40rpx 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.surplusTime text{
+    font-size: 96rpx;
+}
+.surplusTime view{
+    font-size: 48rpx;
+}
+.orderInfo{
+    width: 86.56%;
+    background-color:white;
+    padding: 0 0 30rpx 0;
+}
+.info_icon{
+    height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.info_icon image:nth-child(1){ 
+    display: block;
+    width: 53rpx;
+    margin: 40rpx 0 10rpx 0;
+}
+.info_icon image:nth-child(2){ 
+    display: block;
+    width: 84rpx;
+    margin: 10rpx 0 20rpx 0;
+}
+.info_icon text{
+    font-size: 28rpx;
+    font-family: "SimHei";
+    color: rgb( 1, 147, 230 );
+}
+.info_line{
+    width: 100%;
+    border-top: 1px dashed #e72b6c;
+    margin: 60rpx 0 10rpx 0;
+}
+.info_detail text{
+    display: block;
+    line-height: 50rpx;
+    margin: 15rpx 0 15rpx 0;
+    font-size: 30rpx;
+    padding: 0 20rpx 0 20rpx;
+}

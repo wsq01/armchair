@@ -1,0 +1,11 @@
+<view class="container">
+  <view>
+    <text>问题描述：</text>
+    <textarea placeholder="请详描述你所遇到的问题" bindinput="descript"/>
+  </view>
+  <view>
+    <text>联系方式：</text>
+    <textarea placeholder="请留下您的联系方式（QQ/微信/电话/等）"/>
+  </view>
+  <button bindtap="sendMsg">提交</button>
+</view>

@@ -1,0 +1,28 @@
+Page {
+  height: 100%;
+}
+
+.container {
+  height: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.container button {
+  width: 257rpx;
+  height: 85rpx;
+  line-height: 85rpx;
+  color: white;
+  background-color: #79b5d6;
+  border-radius: 50rpx;
+  margin: 0 0 100rpx 0;
+}
